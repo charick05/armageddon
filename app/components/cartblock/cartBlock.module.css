@@ -1,0 +1,98 @@
+.cartblock {
+   max-width: 400px;
+   width: 100%;
+   margin: 30px auto 0;
+   padding-bottom: 50px;
+}
+
+@media(max-width: 665px) {
+   .cartblock {
+      padding-left: 30px;
+   }
+}
+
+.order_title_block {
+   width: 100%;
+   text-align: center;
+}
+
+.order_title {
+   font-size: clamp(1.688rem, 1.585rem + 0.51vw, 2rem);
+   margin-bottom: 40px;
+}
+
+.cartlist {
+   position: relative;
+   height: clamp(5.938rem, 5.733rem + 1.02vw, 6.563rem);
+   margin-bottom: clamp(0.875rem, 0.753rem + 0.61vw, 1.25rem);
+   padding-left: clamp(1.875rem, 1.671rem + 1.02vw, 2.5rem);
+}
+
+.title {
+   font-size: clamp(1.25rem, 1.168rem + 0.41vw, 1.5rem);
+   margin-bottom: 15px;
+}
+
+.block {
+   display: flex;
+   font-size: clamp(0.75rem, 0.668rem + 0.41vw, 1rem);
+}
+
+.left {
+   margin-right: clamp(1.938rem, 1.856rem + 0.41vw, 2.188rem);
+}
+
+.distance {
+   position: relative;
+}
+
+.arrow {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -15px;
+  }
+
+.right {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   padding-left: 17px;
+}
+
+.icon {
+   position: absolute;
+   height: auto;
+}
+
+.icon img {
+   width: 100%;
+   height: 100%;
+}
+
+.dangerous {
+   position: absolute;
+   left: 9%;
+   bottom: 0;
+}
+
+.main_page_block {
+   width: 100%;
+   text-align: center;
+}
+
+.main_page {
+   font-size: clamp(1.063rem, 0.96rem + 0.51vw, 1.375rem);
+   text-decoration: none;
+   background-color: #b84d00;
+   border-radius: 15px;
+   padding: clamp(0.375rem, 0.293rem + 0.41vw, 0.625rem) clamp(0.813rem, 0.751rem + 0.31vw, 1rem);
+   transition: background .2s;
+   
+}
+
+@media(hover:hover) {
+   .main_page:hover {
+      background-color: #8d3b00;
+   }
+}

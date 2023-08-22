@@ -1,0 +1,16 @@
+.isdangerousBlock {
+   display: flex;
+   align-items: center;
+   width: 100px;
+   height: 25px;
+}
+
+.isdangerousIcon {
+   fill: yellow;
+}
+
+.isdangerous {
+   font-size: clamp(0.75rem, 0.709rem + 0.2vw, 0.875rem);
+   line-height: 20;
+   padding-left: 4px;
+}

@@ -1,0 +1,61 @@
+.cart {
+   position: fixed;
+   border-radius: 25px;
+   right: clamp(0.625rem, -16.063rem + 38.14vw, 17.313rem);
+   width: clamp(6.25rem, 5.23rem + 5.1vw, 9.375rem);
+   height: clamp(6.875rem, 5.855rem + 5.1vw, 10rem);
+   background-color: rgba(35, 37, 38, 1);
+}
+
+.basket {
+   display: flex;
+   flex-direction: column;
+   padding-top: 16px;
+   padding-left: 16px;
+   font-size: clamp(0.75rem, 0.628rem + 0.61vw, 1.125rem);
+   font-weight: 700;
+}
+
+.btn {
+   position: absolute;
+   bottom: 16px;
+   font-size: clamp(0.688rem, 0.585rem + 0.51vw, 1rem);
+   text-decoration: none;
+   padding: clamp(0.438rem, 0.335rem + 0.51vw, 0.75rem) clamp(0.688rem, 0.585rem + 0.51vw, 1rem);
+   border-radius: 40px;
+   background-color: #F86600;
+   color: white;
+   right: clamp(0.875rem, 0.773rem + 0.51vw, 1.188rem);
+   transition: background 0.2s;
+}
+
+@media(hover:hover) {
+   .btn:hover {
+      background-color: #b84d00;
+   }
+}
+
+@media(max-width: 500px) {
+   .cart {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: auto;
+      height: 80px;
+      border-radius: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 5;
+   }
+
+   .basket {
+      font-size: clamp(0.875rem, 0.753rem + 0.61vw, 1.25rem);
+   }
+
+   .btn {
+      position: static;
+      font-size: clamp(0.875rem, 0.753rem + 0.61vw, 1.25rem);
+      margin-right: 16px;
+   }
+}

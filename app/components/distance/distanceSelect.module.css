@@ -1,0 +1,5 @@
+.distance_select {
+   font-size: clamp(0.75rem, 0.668rem + 0.41vw, 1rem);
+   font-weight: 700;
+   cursor: pointer;
+}

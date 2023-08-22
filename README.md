@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Проект "Armageddon 2023"
 
-## Getting Started
+Проект "Armageddon 2023" - это интерактивное веб-приложение, разработанное с использованием технологий Next.js и TypeScript. Данное приложение позволяет просматривать список околоземных объектов (астероидов), полученных по API НАСА, добавлять их в корзину для последующего заказа на уничтожение.
 
-First, run the development server:
+## Установка
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Убедитесь, что у вас установлен Node.js на вашем компьютере.
+2. Склонируйте репозиторий на вашу локальную машину.
+3. В терминале перейдите в корневую папку проекта.
+4. Выполните команду `npm install` для установки всех зависимостей.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Использование
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. После установки всех зависимостей, выполните команду `npm run dev` для запуска проекта в режиме разработки.
+2. Откройте браузер и перейдите по адресу http://localhost:3000, чтобы открыть главную страницу приложения.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Функциональность
 
-## Learn More
+### Главная страница
 
-To learn more about Next.js, take a look at the following resources:
+На главной странице отображается список всех астероидов, начиная с текущего дня. Для каждого астероида доступна ссылка на страницу с детальными данными о нем.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Корзина
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+После клика на кнопку "Заказать" данный астероид добавляется в корзину. Для удаления из корзины нажмите снова на ту же кнопку. Также на блоке корзины есть кнопка "Отправить". При клике на данную кнопку открывается новая страница с сообщением об успешном заказе.
 
-## Deploy on Vercel
+## Дополнительная информация
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Проект разработан с использованием Next.js и TypeScript, что позволяет создавать эффективные и масштабируемые веб-приложения.
+- Данные об астероидах получаются по API НАСА.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Лицензия
+
+Этот проект предоставляется под лицензией [MIT](https://opensource.org/licenses/MIT).

@@ -1,0 +1,11 @@
+.footer {
+   position: fixed;
+   bottom: 0;
+   text-align: center;
+   padding: 5px;
+}
+
+.footer span {
+   font-size: clamp(0.75rem, 0.587rem + 0.82vw, 1.25rem);
+   opacity: 0.5;
+}
